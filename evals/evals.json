@@ -1,0 +1,72 @@
+[
+  {
+    "id": "ecommerce-beginner",
+    "name": "Ecommerce beginner seeking first campaign",
+    "prompt": "I just launched a dropshipping store selling a $79 posture corrector. I've never run ads before and have $2,000 to spend on testing. What platform should I use and how do I structure my first campaign?",
+    "expected_topics": [
+      "Meta Ads as primary platform",
+      "Unit economics validation (margin check)",
+      "Testing campaign structure (ABO)",
+      "Creative strategy (UGC, problem-solution)",
+      "Budget allocation ($30-50/day)",
+      "Pixel and tracking setup",
+      "Kill criteria after $1,000-2,000 spent"
+    ]
+  },
+  {
+    "id": "coaching-scale",
+    "name": "Coach struggling to scale past $200/day",
+    "prompt": "I sell a $5,000 coaching program. My Meta ads have been profitable at $200/day with 4x ROAS for 3 weeks. Every time I increase to $500/day, my CPA doubles. How do I scale without killing profitability?",
+    "expected_topics": [
+      "Bell curve explanation (warm to cold audience transition)",
+      "ROAS dropping at scale is normal",
+      "Net profit vs ROAS comparison",
+      "Creative volume (need more ads/angles)",
+      "Horizontal scaling before vertical",
+      "20-30% budget increase rule",
+      "Algorithm learning period (3-5 days)"
+    ]
+  },
+  {
+    "id": "saas-platform-choice",
+    "name": "SaaS founder choosing ad platform",
+    "prompt": "We have a B2B SaaS tool for project management ($29/mo). We're at $10K MRR and want to use paid ads to grow. Should we use Google or Facebook? Budget is $3,000/month.",
+    "expected_topics": [
+      "Google Ads primary (high intent search)",
+      "Meta for retargeting only initially",
+      "LTV:CAC ratio calculation",
+      "Search campaign structure",
+      "Keyword research approach",
+      "Trial-to-paid conversion tracking",
+      "Payback period calculation"
+    ]
+  },
+  {
+    "id": "low-conversion-diagnosis",
+    "name": "Diagnosing low conversion rate",
+    "prompt": "My Facebook ads have great CTR (2.3%) but my landing page only converts at 1.5%. I'm spending $100/day and getting leads at $45 each which is too expensive for my $1,500 program. What's wrong?",
+    "expected_topics": [
+      "High CTR + low CR diagnosis (message mismatch or wrong traffic)",
+      "Chase problems upstream principle",
+      "Committed language to filter clicks",
+      "Landing page optimization checklist",
+      "Physical and psychological resistance reduction",
+      "Target CR benchmarks (5-10%)",
+      "Specific landing page fixes"
+    ]
+  },
+  {
+    "id": "infoproduct-funnel",
+    "name": "Course creator building ad funnel",
+    "prompt": "I'm launching a $497 online course on photography. I have testimonials from beta students. I want to use Meta ads. What funnel should I build and how should I structure the campaign?",
+    "expected_topics": [
+      "Webinar/VSL funnel recommendation",
+      "VSSL 80/20 structure",
+      "Campaign structure for infoproducts",
+      "Awareness levels and message matching",
+      "Lead gen with instant forms vs landing page",
+      "Nurture sequence after lead capture",
+      "Unit economics for $497 product"
+    ]
+  }
+]
