@@ -13,11 +13,11 @@
 </p>
 
 <p align="center">
-  <a href="#-what-it-does">What it does</a> &bull;
-  <a href="#-knowledge-sources">Sources</a> &bull;
-  <a href="#-installation">Install</a> &bull;
-  <a href="#-usage">Usage</a> &bull;
-  <a href="#-frameworks">Frameworks</a>
+  <a href="#what-it-does">What it does</a> &bull;
+  <a href="#knowledge-sources">Sources</a> &bull;
+  <a href="#installation">Install</a> &bull;
+  <a href="#usage">Usage</a> &bull;
+  <a href="#frameworks-included">Frameworks</a>
 </p>
 
 ---
