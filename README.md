@@ -1,90 +1,218 @@
-# paid-ads-advisorGO
+<p align="center">
+  <img src="https://img.shields.io/badge/Claude_Code-Skill-blueviolet?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI+PHBhdGggZD0iTTEyIDJMNiA3djEwbDYgNSA2LTV2LTEweiIvPjwvc3ZnPg==" alt="Claude Code Skill">
+  <img src="https://img.shields.io/badge/30%2B_Hours-Practitioner_Content-orange?style=for-the-badge" alt="30+ Hours">
+  <img src="https://img.shields.io/badge/5_Business-Playbooks-green?style=for-the-badge" alt="5 Playbooks">
+  <img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License">
+</p>
 
-**Scale any digital business through paid ads.** A Claude Code skill built from 30+ hours of elite practitioner content.
+<h1 align="center">paid-ads-advisorGO</h1>
+
+<p align="center">
+  <strong>Scale any digital business through paid ads.</strong><br>
+  A Claude Code skill built from 30+ hours of elite practitioner content.
+</p>
+
+<p align="center">
+  <a href="#-what-it-does">What it does</a> &bull;
+  <a href="#-knowledge-sources">Sources</a> &bull;
+  <a href="#-installation">Install</a> &bull;
+  <a href="#-usage">Usage</a> &bull;
+  <a href="#-frameworks">Frameworks</a>
+</p>
 
 ---
 
-## What is this?
+## The Problem
 
-A specialized Claude Code skill that acts as your paid ads strategist. It doesn't give generic advice. It gives you the exact playbooks, campaign structures, unit economics, and optimization frameworks used by practitioners who collectively:
+You watch 30 hours of paid ads courses. You take notes. You forget 90% of it. When it's time to launch your campaign, you're back to guessing.
 
-- Spend **$20,000/day** on Facebook Ads generating **$1.5M/month**
-- Have invested **+15M EUR** in Meta advertising
-- Generated **$800M+** in ecommerce sales
-- Managed **60+ lesson** Google Ads curriculum over 15 years of PPC
-
-This isn't theory. This is distilled operator knowledge.
+**paid-ads-advisorGO** solves this. It takes all that practitioner knowledge and makes it actionable on demand, right inside Claude Code.
 
 ---
 
 ## What it does
 
-Tell it your business type, budget, and goals. It returns:
+Tell it your business type, budget, and goals. It returns a complete strategy:
 
-| Phase | Output |
-|-------|--------|
-| **Diagnosis** | Business type classification, bottleneck identification, platform recommendation |
-| **Unit Economics** | Revenue model, breakeven ROAS/CPA, budget recommendation with scenarios |
-| **Campaign Architecture** | Complete campaign structure with naming conventions, audiences, budget allocation |
-| **Creative Brief** | Angles to test, hook formulas, ad format recommendations, UGC creator briefs |
-| **Launch Checklist** | Pixel setup, campaign build steps, pre-launch verification |
-| **Optimization Plan** | KPI targets, review cadence, kill criteria, scaling triggers |
-
----
-
-## Business types covered
-
-| Type | Primary Platform | Funnel |
-|------|-----------------|--------|
-| **Ecommerce / Dropshipping** | Meta Ads | Ad > Product Page > Checkout |
-| **Infoproducts / Courses** | Meta Ads | Ad > Landing Page > VSL > Sales |
-| **Coaching / Consulting** | Meta Ads | Ad > Survey > Booking > Call |
-| **SaaS** | Google Ads + Meta | Ad > Landing > Trial > Onboarding |
-| **Local Services** | Google Ads | Ad > Landing > Call/Form |
-
-Each type has a dedicated playbook with campaign structures, metric targets, creative strategies, and scaling milestones.
-
----
-
-## Knowledge base
-
-Built from 30+ hours of practitioner content, distilled into 6 reference documents:
-
-| Reference | What's inside |
-|-----------|---------------|
-| [`platform-decision-matrix.md`](references/platform-decision-matrix.md) | When to use Google vs Meta vs TikTok, budget progression by phase |
-| [`campaign-architectures.md`](references/campaign-architectures.md) | Complete funnel structures for Meta (ecommerce, services, infoproducts) and Google (search, shopping) |
-| [`creative-frameworks.md`](references/creative-frameworks.md) | Rule of One, Hook>Retention>Bridge, Schwartz awareness levels, UGC briefs, creative volume targets |
-| [`unit-economics.md`](references/unit-economics.md) | Breakeven calculators, forecasting sheets, metrics by business type |
-| [`optimization-diagnostics.md`](references/optimization-diagnostics.md) | Diagnostic decision tree, metric benchmarks, kill rules, optimization cadence |
-| [`scaling-playbook.md`](references/scaling-playbook.md) | Bell curve of scaling, vertical/horizontal methods, risk mitigation, milestones $0 to $100K+/mo |
-| [`business-type-playbooks.md`](references/business-type-playbooks.md) | Complete playbooks for ecommerce, infoproducts, coaching, SaaS, and local services |
+```
+            YOUR INPUT                              SKILL OUTPUT
+  ┌─────────────────────────┐          ┌──────────────────────────────┐
+  │                         │          │                              │
+  │  Business type          │    ──>   │  1. DIAGNOSIS                │
+  │  Budget                 │          │     Platform recommendation  │
+  │  Goals                  │          │     Bottleneck identification │
+  │  Current state          │          │                              │
+  │                         │          │  2. UNIT ECONOMICS           │
+  └─────────────────────────┘          │     Breakeven ROAS/CPA       │
+                                       │     Revenue modeling          │
+                                       │                              │
+                                       │  3. CAMPAIGN ARCHITECTURE    │
+                                       │     Full funnel structure     │
+                                       │     Budget allocation         │
+                                       │     Naming conventions        │
+                                       │                              │
+                                       │  4. CREATIVE BRIEF           │
+                                       │     Angles to test            │
+                                       │     Hook formulas             │
+                                       │     UGC creator briefs        │
+                                       │                              │
+                                       │  5. LAUNCH CHECKLIST         │
+                                       │     Pixel & tracking setup    │
+                                       │     Pre-launch verification   │
+                                       │                              │
+                                       │  6. OPTIMIZATION PLAN        │
+                                       │     KPI targets               │
+                                       │     Kill criteria             │
+                                       │     Scaling triggers          │
+                                       └──────────────────────────────┘
+```
 
 ---
 
-## Sources
+## Business Playbooks
 
-| Source | Practitioner | Credibility |
-|--------|-------------|-------------|
-| Facebook Ads Course (12h) | Brandon Willington | $20K/day spend, $1.5M/mo revenue, 2,000+ clients |
-| Meta Ads Tutorial (2026) | Ruger Viladrosa (BBig Media) | +15M EUR invested in Meta advertising |
-| Google Ads Course (5h+, 60 lessons) | Lead Velocity | ~15 years PPC experience |
-| Dropshipping Tutorial (11h+) | Davie Fogarty | $800M+ in ecommerce sales |
-| Growth Operating Blueprint | Multiple sources | 5 video compilation, operator methodology |
+<table>
+<tr>
+<td width="20%" align="center"><strong>Ecommerce<br>Dropshipping</strong></td>
+<td width="20%" align="center"><strong>Infoproducts<br>Courses</strong></td>
+<td width="20%" align="center"><strong>Coaching<br>Consulting</strong></td>
+<td width="20%" align="center"><strong>SaaS</strong></td>
+<td width="20%" align="center"><strong>Local<br>Services</strong></td>
+</tr>
+<tr>
+<td align="center">Meta Ads</td>
+<td align="center">Meta Ads</td>
+<td align="center">Meta Ads</td>
+<td align="center">Google + Meta</td>
+<td align="center">Google Ads</td>
+</tr>
+<tr>
+<td>Ad > Product Page > Checkout</td>
+<td>Ad > LP > VSL > Sales</td>
+<td>Ad > Survey > Book > Call</td>
+<td>Ad > LP > Trial > Onboard</td>
+<td>Ad > LP > Call/Form</td>
+</tr>
+<tr>
+<td><code>ROAS >3:1</code><br><code>AOV >$100</code><br><code>Margin >60%</code></td>
+<td><code>CPL <$20</code><br><code>Show >30%</code><br><code>Conv >5%</code></td>
+<td><code>CPL <$20</code><br><code>Show 70%+</code><br><code>Close 30%+</code></td>
+<td><code>LTV:CAC >3:1</code><br><code>Payback <12mo</code><br><code>Trial>Paid 15%+</code></td>
+<td><code>CPL varies</code><br><code>Close 20-40%</code><br><code>ROI >5:1</code></td>
+</tr>
+</table>
+
+Each playbook includes complete campaign structure, audience strategy, creative approach, metrics targets, and scaling triggers.
+
+---
+
+## Knowledge Sources
+
+This skill distills knowledge from practitioners with **real results**, not theory:
+
+<table>
+<tr>
+<th>Source</th>
+<th>Practitioner</th>
+<th>Track Record</th>
+<th>Duration</th>
+</tr>
+<tr>
+<td><strong>Facebook Ads Course</strong></td>
+<td>Brandon Willington</td>
+<td>$20K/day spend, $1.5M/mo revenue, 2,000+ clients</td>
+<td>12 hours</td>
+</tr>
+<tr>
+<td><strong>Meta Ads Tutorial</strong></td>
+<td>Ruger Viladrosa (BBig Media)</td>
+<td>+15M EUR invested in Meta advertising</td>
+<td>~4 hours</td>
+</tr>
+<tr>
+<td><strong>Google Ads Course</strong></td>
+<td>Lead Velocity</td>
+<td>~15 years PPC, 60+ lessons</td>
+<td>5+ hours</td>
+</tr>
+<tr>
+<td><strong>Dropshipping Tutorial</strong></td>
+<td>Davie Fogarty</td>
+<td>$800M+ in ecommerce sales</td>
+<td>11+ hours</td>
+</tr>
+<tr>
+<td><strong>Growth Operating Blueprint</strong></td>
+<td>Multiple sources</td>
+<td>5 video compilation, operator methodology</td>
+<td>~5 hours</td>
+</tr>
+</table>
+
+---
+
+## Reference Documents
+
+<table>
+<tr>
+<td width="50%">
+
+**Strategy & Planning**
+
+| Doc | Content |
+|-----|---------|
+| [`platform-decision-matrix`](references/platform-decision-matrix.md) | Google vs Meta vs TikTok decision tree, budget progression |
+| [`campaign-architectures`](references/campaign-architectures.md) | Full funnel structures for Meta and Google |
+| [`business-type-playbooks`](references/business-type-playbooks.md) | Dedicated playbooks per business type |
+
+</td>
+<td width="50%">
+
+**Execution & Growth**
+
+| Doc | Content |
+|-----|---------|
+| [`creative-frameworks`](references/creative-frameworks.md) | Rule of One, hooks, awareness levels, UGC briefs |
+| [`unit-economics`](references/unit-economics.md) | Breakeven calcs, forecasting sheets, metrics |
+| [`optimization-diagnostics`](references/optimization-diagnostics.md) | Diagnostic tree, benchmarks, kill rules |
+| [`scaling-playbook`](references/scaling-playbook.md) | Bell curve, methods, milestones $0 to $100K+/mo |
+
+</td>
+</tr>
+</table>
+
+---
+
+## Frameworks Included
+
+```
+ADVERTISING PRINCIPLES                    CAMPAIGN FRAMEWORKS
+├── The Three Cs (Click/Convert/Close)    ├── Ecommerce Full Funnel (Viladrosa)
+├── 10 Advertising Principles             ├── Three Cs Pipeline (Willington)
+├── Chase Problems Upstream               ├── Google Search Structure
+├── Dials Not Switches                    └── Infoproducts Lead Gen
+├── Curious vs Committed                  
+└── Only Sell the Next Step               SCALING
+                                          ├── Bell Curve of Scaling (Haynes)
+CREATIVE                                  ├── Vertical (20-30% rule)
+├── Rule of One                           ├── Horizontal (new angles/platforms)
+├── Hook > Retention > Bridge + CTA       └── Milestones ($0 → $100K+/mo)
+├── Schwartz's 5 Awareness Levels         
+├── Andromeda Creative Diversity           ECONOMICS
+├── VSSL 80/20 Structure                  ├── Breakeven ROAS Calculator
+└── UGC Creator Brief Template            ├── Forecasting Sheet (Willington)
+                                          └── LTV:CAC Framework
+```
 
 ---
 
 ## Installation
 
-### As a Claude Code skill
-
-Copy the `SKILL.md` and `references/` directory into your Claude Code skills folder:
-
 ```bash
-# Clone the repo
-git clone https://github.com/icarocabello/paid-ads-advisorGO.git
+# Clone
+git clone https://github.com/jordicabelloo/paid-ads-advisorGO.git
 
-# Copy to your Claude Code skills directory
+# Install in Claude Code
 cp -r paid-ads-advisorGO ~/.claude/skills/paid-ads-advisorGO
 ```
 
@@ -92,85 +220,62 @@ cp -r paid-ads-advisorGO ~/.claude/skills/paid-ads-advisorGO
 
 ```
 paid-ads-advisorGO/
-├── SKILL.md                              # Core skill prompt
+├── SKILL.md                              # Core skill (413 lines)
 ├── references/
-│   ├── platform-decision-matrix.md       # Platform selection logic
+│   ├── platform-decision-matrix.md       # Platform selection
 │   ├── campaign-architectures.md         # Campaign structures
 │   ├── creative-frameworks.md            # Ad creative playbooks
 │   ├── unit-economics.md                 # Financial models
-│   ├── optimization-diagnostics.md       # Troubleshooting framework
+│   ├── optimization-diagnostics.md       # Troubleshooting
 │   ├── scaling-playbook.md               # Scaling methodology
-│   └── business-type-playbooks.md        # Per-business-type guides
-└── evals/
-    └── evals.json                        # Evaluation scenarios
+│   └── business-type-playbooks.md        # Per-type guides
+├── evals/
+│   └── evals.json                        # 5 evaluation scenarios
+└── LICENSE
 ```
 
 ---
 
-## Example usage
+## Usage
 
+Once installed, Claude Code automatically activates the skill when you mention paid ads, campaign planning, ROAS optimization, scaling, or ad strategy.
+
+**Example 1 — Starting from zero:**
 ```
-You: I have a coaching business selling a $3,000 program. 
-     I've never run ads. Budget is $1,500/month. Help me get started.
-
-Skill: [Diagnoses as high-ticket coaching → recommends Meta Ads → 
-        builds Three Cs funnel → calculates unit economics showing 
-        $10 CPL → $111 CPA → 27:1 ROAS potential → provides complete 
-        campaign structure with testing budget allocation → delivers 
-        creative brief with 3 angles → launch checklist]
+> I have a coaching business selling a $3,000 program. Never run ads.
+  Budget: $1,500/month. Help me get started.
 ```
 
+**Example 2 — Scaling plateau:**
 ```
-You: My ecommerce store has 2.5x ROAS on Meta but I can't scale 
-     past $200/day without CPA going up.
-
-Skill: [Diagnoses scaling plateau → checks creative volume (likely 
-        too few ads) → recommends Andromeda-optimized approach with 
-        20+ active ads → suggests horizontal scaling with new angles 
-        → provides bell curve explanation of why ROAS drops at scale 
-        → calculates that 2x ROAS at $1,000/day = more net profit 
-        than 5x at $200/day]
+> My ecommerce store has 2.5x ROAS on Meta but I can't scale past 
+  $200/day without CPA going up. What do I do?
 ```
 
----
-
-## Key frameworks included
-
-- **The Three Cs** (Clicks, Conversions, Close) - Brandon Willington
-- **10 Advertising Principles** - Brandon Willington
-- **Schwartz's 5 Awareness Levels** - message matching
-- **Ecommerce Full Funnel** (Brandformance > Prospecting > Retargeting) - Ruger Viladrosa
-- **Rule of One** - single-idea ad creative
-- **Bell Curve of Scaling** - Jeremy Haynes via Willington
-- **Andromeda Creative Diversity** - Meta's 2025+ algorithm
-- **Hook > Retention > Bridge + CTA** - ad structure
-- **Chase Problems Upstream** - diagnostic methodology
-- **Millionaire Outcome Framework** - Davie Fogarty
-- **VSSL 80/20** - video sales letter structure
-- **Forecasting Sheet** - Google Sheets revenue modeling
+**Example 3 — Platform choice:**
+```
+> B2B SaaS tool, $29/mo, $10K MRR. Should I use Google or Facebook? 
+  Budget: $3,000/month.
+```
 
 ---
 
 ## Philosophy
 
-> "ROAS is a vanity metric. A beginner can have 20x ROAS spending $1,000/month. I have 2.5x ROAS spending $20K/day and generate $1.5M/month. What matters is net profit."
+> *"ROAS is a vanity metric. A beginner can have 20x ROAS spending $1,000/month. I have 2.5x ROAS spending $20K/day and generate $1.5M/month. What matters is net profit."*
 > 
-> *Brandon Willington*
+> **Brandon Willington**
 
-> "70-90% of your budget goes to cold traffic. The bottom of funnel depends on investing at the top."
+> *"70-90% of your budget goes to cold traffic. The bottom of funnel depends on investing at the top."*
 > 
-> *Ruger Viladrosa*
+> **Ruger Viladrosa**
 
-> "Your store at launch is the WORST version it will ever be."
+> *"Your store at launch is the WORST version it will ever be."*
 > 
-> *Davie Fogarty*
+> **Davie Fogarty**
 
 ---
 
-## License
-
-MIT
-
----
-
-Built by [@icarocabello](https://github.com/icarocabello)
+<p align="center">
+  <strong>MIT License</strong> &bull; Built by <a href="https://github.com/jordicabelloo">@jordicabelloo</a>
+</p>

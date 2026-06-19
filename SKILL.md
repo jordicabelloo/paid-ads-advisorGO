@@ -3,7 +3,7 @@ name: paid-ads-advisorGO
 description: "Scale any digital business through paid ads. Diagnoses business type, recommends platform mix, builds campaign architectures, calculates unit economics, and provides optimization playbooks. Covers Google Ads, Meta/Facebook Ads, and organic amplification for ecommerce, infoproducts, SaaS, services, and dropshipping. Use when the user mentions 'scale with ads,' 'paid ads strategy,' 'campaign plan,' 'ad budget allocation,' 'which platform should I use,' 'unit economics for ads,' 'ROAS optimization,' 'scaling ads,' 'paid acquisition plan,' 'growth through ads,' 'ad funnel,' 'campaign architecture,' or wants a complete paid advertising strategy to grow their business."
 metadata:
   version: 1.0.0
-  authors: ["@icarocabello"]
+  authors: ["@jordicabelloo"]
   sources:
     - "Facebook Ads Course (12h) — Brandon Willington ($20K/day spend, $1.5M/mo)"
     - "Meta Ads Tutorial (2026) — Ruger Viladrosa (BBig Media, +15M EUR invested)"
